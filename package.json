@@ -1,7 +1,7 @@
 {
-  "name": "webapp-template",
+  "name": "urial_mobile_menu",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a basic menu for mobile web apps",
   "main": "src/app.js",
   "scripts": {
     "build": "webpack",

@@ -1,20 +1,20 @@
-(self["webpackChunkwebapp_template"] =
-  self["webpackChunkwebapp_template"] || []).push([
-  ["main"],
+(self['webpackChunkwebapp_template'] =
+  self['webpackChunkwebapp_template'] || []).push([
+  ['main'],
   {
-    /***/ "./src/app.js":
+    /***/ './src/app.js':
       /*!********************!*\
   !*** ./src/app.js ***!
   \********************/
       /***/ () => {
         const head = document.head;
-        const styleLink = document.createElement("link");
-        styleLink.rel = "stylesheet";
-        styleLink.href = "dist/output.css";
+        const styleLink = document.createElement('link');
+        styleLink.rel = 'stylesheet';
+        styleLink.href = 'dist/output.css';
         head.appendChild(styleLink);
-        const h1Node = document.createElement("h1");
-        h1Node.classList.add("text-3xl", "font-bold", "underline");
-        h1Node.innerHTML = "Hello world!";
+        const h1Node = document.createElement('h1');
+        h1Node.classList.add('text-3xl', 'font-bold', 'underline');
+        h1Node.innerHTML = 'Hello world!';
         document.body.appendChild(h1Node);
 
         /***/
@@ -24,7 +24,7 @@
     // webpackRuntimeModules
     /******/ var __webpack_exec__ = (moduleId) =>
       __webpack_require__((__webpack_require__.s = moduleId));
-    /******/ var __webpack_exports__ = __webpack_exec__("./src/app.js");
+    /******/ var __webpack_exports__ = __webpack_exec__('./src/app.js');
     /******/
   },
 ]);

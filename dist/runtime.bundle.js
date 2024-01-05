@@ -1,6 +1,6 @@
 /******/ (() => {
   // webpackBootstrap
-  /******/ "use strict";
+  /******/ 'use strict';
   /******/ var __webpack_modules__ = {};
   /************************************************************************/
   /******/ // The module cache
@@ -156,8 +156,8 @@
       /******/
     };
     /******/
-    /******/ var chunkLoadingGlobal = (self["webpackChunkwebapp_template"] =
-      self["webpackChunkwebapp_template"] || []);
+    /******/ var chunkLoadingGlobal = (self['webpackChunkwebapp_template'] =
+      self['webpackChunkwebapp_template'] || []);
     /******/ chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
     /******/ chunkLoadingGlobal.push = webpackJsonpCallback.bind(
       null,

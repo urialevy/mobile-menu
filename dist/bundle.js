@@ -8,9 +8,9 @@
  */
 /******/ (() => {
   // webpackBootstrap
-  /******/ "use strict";
+  /******/ 'use strict';
   /******/ var __webpack_modules__ = {
-    /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/style.css":
+    /***/ './node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/style.css':
       /*!*******************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/style.css ***!
   \*******************************************************************************************************/
@@ -22,7 +22,7 @@
         /***/
       },
 
-    /***/ "./node_modules/css-loader/dist/runtime/api.js":
+    /***/ './node_modules/css-loader/dist/runtime/api.js':
       /*!*****************************************************!*\
   !*** ./node_modules/css-loader/dist/runtime/api.js ***!
   \*****************************************************/
@@ -34,19 +34,19 @@
         /***/
       },
 
-    /***/ "./node_modules/css-loader/dist/runtime/noSourceMaps.js":
+    /***/ './node_modules/css-loader/dist/runtime/noSourceMaps.js':
       /*!**************************************************************!*\
   !*** ./node_modules/css-loader/dist/runtime/noSourceMaps.js ***!
   \**************************************************************/
       /***/ (module) => {
         eval(
-          "\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://webapp-template/./node_modules/css-loader/dist/runtime/noSourceMaps.js?",
+          '\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://webapp-template/./node_modules/css-loader/dist/runtime/noSourceMaps.js?',
         );
 
         /***/
       },
 
-    /***/ "./src/style.css":
+    /***/ './src/style.css':
       /*!***********************!*\
   !*** ./src/style.css ***!
   \***********************/
@@ -62,7 +62,7 @@
         /***/
       },
 
-    /***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
+    /***/ './node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js':
       /*!****************************************************************************!*\
   !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
   \****************************************************************************/
@@ -74,7 +74,7 @@
         /***/
       },
 
-    /***/ "./node_modules/style-loader/dist/runtime/insertBySelector.js":
+    /***/ './node_modules/style-loader/dist/runtime/insertBySelector.js':
       /*!********************************************************************!*\
   !*** ./node_modules/style-loader/dist/runtime/insertBySelector.js ***!
   \********************************************************************/
@@ -86,7 +86,7 @@
         /***/
       },
 
-    /***/ "./node_modules/style-loader/dist/runtime/insertStyleElement.js":
+    /***/ './node_modules/style-loader/dist/runtime/insertStyleElement.js':
       /*!**********************************************************************!*\
   !*** ./node_modules/style-loader/dist/runtime/insertStyleElement.js ***!
   \**********************************************************************/
@@ -98,7 +98,7 @@
         /***/
       },
 
-    /***/ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js":
+    /***/ './node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js':
       /*!**********************************************************************************!*\
   !*** ./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js ***!
   \**********************************************************************************/
@@ -110,7 +110,7 @@
         /***/
       },
 
-    /***/ "./node_modules/style-loader/dist/runtime/styleDomAPI.js":
+    /***/ './node_modules/style-loader/dist/runtime/styleDomAPI.js':
       /*!***************************************************************!*\
   !*** ./node_modules/style-loader/dist/runtime/styleDomAPI.js ***!
   \***************************************************************/
@@ -122,19 +122,19 @@
         /***/
       },
 
-    /***/ "./node_modules/style-loader/dist/runtime/styleTagTransform.js":
+    /***/ './node_modules/style-loader/dist/runtime/styleTagTransform.js':
       /*!*********************************************************************!*\
   !*** ./node_modules/style-loader/dist/runtime/styleTagTransform.js ***!
   \*********************************************************************/
       /***/ (module) => {
         eval(
-          "\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElement) {\n  if (styleElement.styleSheet) {\n    styleElement.styleSheet.cssText = css;\n  } else {\n    while (styleElement.firstChild) {\n      styleElement.removeChild(styleElement.firstChild);\n    }\n    styleElement.appendChild(document.createTextNode(css));\n  }\n}\nmodule.exports = styleTagTransform;\n\n//# sourceURL=webpack://webapp-template/./node_modules/style-loader/dist/runtime/styleTagTransform.js?",
+          '\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElement) {\n  if (styleElement.styleSheet) {\n    styleElement.styleSheet.cssText = css;\n  } else {\n    while (styleElement.firstChild) {\n      styleElement.removeChild(styleElement.firstChild);\n    }\n    styleElement.appendChild(document.createTextNode(css));\n  }\n}\nmodule.exports = styleTagTransform;\n\n//# sourceURL=webpack://webapp-template/./node_modules/style-loader/dist/runtime/styleTagTransform.js?',
         );
 
         /***/
       },
 
-    /***/ "./src/app.js":
+    /***/ './src/app.js':
       /*!********************!*\
   !*** ./src/app.js ***!
   \********************/
@@ -191,7 +191,7 @@
     /******/ __webpack_require__.n = (module) => {
       /******/ var getter =
         module && module.__esModule
-          ? /******/ () => module["default"]
+          ? /******/ () => module['default']
           : /******/ () => module;
       /******/ __webpack_require__.d(getter, { a: getter });
       /******/ return getter;
@@ -233,13 +233,13 @@
   /******/ (() => {
     /******/ // define __esModule on exports
     /******/ __webpack_require__.r = (exports) => {
-      /******/ if (typeof Symbol !== "undefined" && Symbol.toStringTag) {
+      /******/ if (typeof Symbol !== 'undefined' && Symbol.toStringTag) {
         /******/ Object.defineProperty(exports, Symbol.toStringTag, {
-          value: "Module",
+          value: 'Module',
         });
         /******/
       }
-      /******/ Object.defineProperty(exports, "__esModule", { value: true });
+      /******/ Object.defineProperty(exports, '__esModule', { value: true });
       /******/
     };
     /******/
@@ -256,7 +256,7 @@
   /******/ // startup
   /******/ // Load entry module and return exports
   /******/ // This entry module can't be inlined because the eval devtool is used.
-  /******/ var __webpack_exports__ = __webpack_require__("./src/app.js");
+  /******/ var __webpack_exports__ = __webpack_require__('./src/app.js');
   /******/
   /******/
 })();
